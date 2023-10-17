@@ -1,0 +1,134 @@
+/* Main Page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(222, 250, 174), rgb(212, 190, 143));
+  }
+
+.title{
+    text-align: center;
+    padding: 10px;
+    margin-left: 620px;
+    margin-right: 620px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    border: 2px solid black;
+}
+
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+.lcr-container{
+  width: 600px;
+  border: 2px solid black;
+  text-align: center;
+  padding-left: 0px;
+  margin: 16px auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+.hcr-container{
+  width: 600px;
+  border: 2px solid black;
+  text-align: center;
+  padding-left: 0px;
+  margin: 16px auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+.listhcr,
+.listlcr{
+  text-align: left;
+}
+
+.lcr,
+.hcr{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+/* High Calories Recipes */
+
+
+.details{
+    text-align: center;
+  }
+  
+.ih,
+.dh {
+    color: rgb(168, 119, 12);
+    font-size: 20px;
+    text-align: center;
+}
+
+.nutrition{
+    font-weight: bold;
+    text-align: center;
+}
+
+.ihcontainer{
+  width: 600px;
+  border: 2px solid black;
+  text-align: left;
+  padding-left: 0px;
+  margin: 16px auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+.dhcontainer{
+  width: 600px;
+  border: 2px solid black;
+  text-align: left;
+  padding-left: 0px;
+  margin: 16px auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+/* Low Calories Recipes */
+
+
+
+.details.LC{
+    text-align: center;
+  }
+  
+.il,
+.dl {
+    color: rgb(0, 138, 30);
+    font-size: 20px;
+    text-align: center;
+}
+
+.nutrition{
+  font-weight: bold;
+  text-align: center;
+}
+
+.ilcontainer{
+  width: 600px;
+  border: 2px solid black;
+  text-align: left;
+  padding-left: 0px;
+  margin: 16px auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+.dlcontainer{
+  width: 600px;
+  border: 2px solid black;
+  text-align: left;
+  padding-left: 0px;
+  margin: 16px auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
