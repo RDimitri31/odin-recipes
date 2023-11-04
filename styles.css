@@ -1,62 +1,84 @@
 /* Main Page*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(rgb(222, 250, 174), rgb(212, 190, 143));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(rgb(255, 255, 255), rgb(130, 202, 207));
+    display: flex;
+    flex-direction: column;
   }
 
 .title{
     text-align: center;
-    padding: 10px;
-    margin-left: 620px;
-    margin-right: 620px;
+    font-size: 32px;
+    font-weight: 900;
     border-radius: 25px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
-    border: 2px solid black;
+    box-shadow: 0px 0px 20px rgba(0, 110, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    color: rgba(0, 110, 255);
+    font-style: italic;
 }
 
-
-.image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+.card{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 130px;
 }
 
-.lcr-container{
-  width: 600px;
-  border: 2px solid black;
-  text-align: center;
-  padding-left: 0px;
-  margin: 16px auto;
-  border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+.imagei{
+  box-shadow: 0px 0px 20px rgba(0, 110, 255);
+  border-radius: 20px;
 }
 
+.lcr-container,
 .hcr-container{
-  width: 600px;
-  border: 2px solid black;
+  max-width: fit-content;
+  border: 2px solid rgb(255, 255, 255);
   text-align: center;
-  padding-left: 0px;
-  margin: 16px auto;
   border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+  box-shadow: 0px 0px 20px rgba(0, 110, 255);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
-.listhcr,
-.listlcr{
-  text-align: left;
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 .lcr,
 .hcr{
   font-weight: bold;
   font-size: 24px;
-  text-align: center;
 }
 
 
 /* High Calories Recipes */
 
+.content{
+  display: flex;
+  gap: 32px;
+  max-width: fit-content;
+  padding-left: 200px;
+}
+
+.left{
+  margin-right: 200px;
+}
+
+.imagehc{
+  box-shadow: 0px 0px 20px rgba(0, 110, 255);
+  border-radius: 220px;
+}
 
 .details{
     text-align: center;
@@ -64,9 +86,12 @@ body {
   
 .ih,
 .dh {
-    color: rgb(168, 119, 12);
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
+    font-weight: 900;
+}
+.dh{
+  color: rgb(0, 110, 255);
 }
 
 .nutrition{
@@ -76,7 +101,7 @@ body {
 
 .ihcontainer{
   width: 600px;
-  border: 2px solid black;
+  border: 2px solid white;
   text-align: left;
   padding-left: 0px;
   margin: 16px auto;
@@ -86,13 +111,15 @@ body {
 
 .dhcontainer{
   width: 600px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   text-align: left;
   padding-left: 0px;
   margin: 16px auto;
   border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+  box-shadow: 0px 0px 20px rgba(0, 110, 255);
 }
+
+
 /* Low Calories Recipes */
 
 
