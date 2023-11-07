@@ -99,16 +99,6 @@ a{
     text-align: center;
 }
 
-.ihcontainer{
-  width: 600px;
-  border: 2px solid white;
-  text-align: left;
-  padding-left: 0px;
-  margin: 16px auto;
-  border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
-}
-
 .dhcontainer{
   width: 600px;
   border: 2px solid rgb(255, 255, 255);
@@ -122,7 +112,21 @@ a{
 
 /* Low Calories Recipes */
 
+.content{
+  display: flex;
+  gap: 32px;
+  max-width: fit-content;
+  padding-left: 200px;
+}
 
+.left{
+  margin-right: 200px;
+}
+
+.imagelc{
+  box-shadow: 0px 0px 20px rgba(0, 110, 255);
+  border-radius: 220px;
+}
 
 .details.LC{
     text-align: center;
@@ -130,9 +134,13 @@ a{
   
 .il,
 .dl {
-    color: rgb(0, 138, 30);
-    font-size: 20px;
-    text-align: center;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.dl{
+  color: rgb(0, 110, 255);
 }
 
 .nutrition{
@@ -140,22 +148,12 @@ a{
   text-align: center;
 }
 
-.ilcontainer{
-  width: 600px;
-  border: 2px solid black;
-  text-align: left;
-  padding-left: 0px;
-  margin: 16px auto;
-  border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
-}
-
 .dlcontainer{
   width: 600px;
-  border: 2px solid black;
+  border: 2px solid rgba(255, 255, 255);
   text-align: left;
   padding-left: 0px;
   margin: 16px auto;
   border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+  box-shadow: 0px 0px 20px rgba(0, 110, 255);
 }
